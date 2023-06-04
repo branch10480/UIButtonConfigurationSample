@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4854F04C2A2CD84B00B0B470 /* MainModule in Frameworks */ = {isa = PBXBuildFile; productRef = 4854F04B2A2CD84B00B0B470 /* MainModule */; };
 		48C649AC2A2CD30500C4E9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C649AB2A2CD30500C4E9D3 /* AppDelegate.swift */; };
 		48C649AE2A2CD30500C4E9D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C649AD2A2CD30500C4E9D3 /* SceneDelegate.swift */; };
 		48C649B02A2CD30500C4E9D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C649AF2A2CD30500C4E9D3 /* ViewController.swift */; };
 		48C649B32A2CD30500C4E9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C649B12A2CD30500C4E9D3 /* Main.storyboard */; };
 		48C649B52A2CD30600C4E9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C649B42A2CD30600C4E9D3 /* Assets.xcassets */; };
 		48C649B82A2CD30600C4E9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C649B62A2CD30600C4E9D3 /* LaunchScreen.storyboard */; };
-		48C649C12A2CD3AE00C4E9D3 /* UIButtonConfigurationSample in Frameworks */ = {isa = PBXBuildFile; productRef = 48C649C02A2CD3AE00C4E9D3 /* UIButtonConfigurationSample */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C649C12A2CD3AE00C4E9D3 /* UIButtonConfigurationSample in Frameworks */,
+				4854F04C2A2CD84B00B0B470 /* MainModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			);
 			name = UIButtonConfigurationSample;
 			packageProductDependencies = (
-				48C649C02A2CD3AE00C4E9D3 /* UIButtonConfigurationSample */,
+				4854F04B2A2CD84B00B0B470 /* MainModule */,
 			);
 			productName = UIButtonConfigurationSample;
 			productReference = 48C649A82A2CD30500C4E9D3 /* UIButtonConfigurationSample.app */;
@@ -373,9 +373,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		48C649C02A2CD3AE00C4E9D3 /* UIButtonConfigurationSample */ = {
+		4854F04B2A2CD84B00B0B470 /* MainModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = UIButtonConfigurationSample;
+			productName = MainModule;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

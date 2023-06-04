@@ -6,12 +6,15 @@
 //
 
 import UIKit
+import MainModule
 
-class ViewController: UIViewController {
+class ViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        let rootVC = RootViewController.instantiate()
+        setViewControllers([rootVC], animated: false)
     }
 
 
